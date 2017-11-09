@@ -55,7 +55,13 @@ body {
     animation: swing 2s;
     -webkit-animation: swing 2s;
     color: rgba(255, 204, 221, 0.9);
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
+
+
 
 @-webkit-keyframes swing {
   20% {
@@ -127,8 +133,19 @@ h2 {
     font-family: 'Leckerli One', cursive;
     font-size: 35px;
     padding-bottom: 10px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 /** footer **/
 footer {
 	text-align: center;
@@ -136,6 +153,7 @@ footer {
 	background-color: #e5e3de;
 	padding-bottom: 60px;
 }
+
 
 
 
