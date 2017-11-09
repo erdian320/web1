@@ -3,6 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700);
 @import url(http://fonts.googleapis.com/css?family=Limelight);
 @import url(https://fonts.googleapis.com/css?family=Leckerli+One);
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 
 
@@ -27,34 +28,32 @@
 
 /** general **/
 section  {
-    padding: 80px 0 40px;
     width: 600px;
 	margin: 0 auto;
 
-}
-
-body {
-    background-image: url(../img/flamingo-standing.jpg);
-    background-repeat: no-repeat;
-    position: relative;
 }
 
 
 
 /* intro */
 #intro {
-    margin-top: 100px;
+    width: 1200px;
+	margin: 0 auto;
     margin-bottom: 100px;
     text-align: center;
 }
 
 #intro h1 {
-    font-family: 'Leckerli One', cursive;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 165px;
+    font-size: 100px;
     animation: swing 2s;
     -webkit-animation: swing 2s;
+<<<<<<< Updated upstream
     color: rgba(255, 204, 221, 0.9);
+=======
+    color: #e5e3de;
+>>>>>>> Stashed changes
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
@@ -62,7 +61,10 @@ body {
 }
 
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 @-webkit-keyframes swing {
   20% {
     -webkit-transform: rotate3d(0, 0, 1, 15deg);
@@ -128,6 +130,7 @@ body {
 
 /** main **/
 
+<<<<<<< Updated upstream
 h2 {
     color: #ff80aa;
     font-family: 'Leckerli One', cursive;
@@ -141,6 +144,12 @@ h2 {
 
 p {
     display: block;
+=======
+
+h3 {
+    display: block;
+    text-align: center;
+>>>>>>> Stashed changes
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
